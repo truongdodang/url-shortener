@@ -1,7 +1,6 @@
 # URL Shortener
 
-A simple project to generate shorten urls (like bit.ly, tinyurl.com, etc. services) within 5 characters.
-
+A simple project to generate shortened URLs (like bit.ly, tinyurl.com, etc. services) within 5 characters.
 
 <br>
 
@@ -15,7 +14,7 @@ The setups steps expect following libraries/ tools installed on your system.
 
 - Github
 - Ruby [3.2.1]
-- Rails [7.0.4]
+- Rails [7.0.5]
 - Bundler [2.4.10]
 - PostgreSQL
 
@@ -73,7 +72,7 @@ rails s
 Then you can use the shortener service at the URL http://localhost:3000
 
 
-### How to use
+### How to use this API
 
 Demo with https://truong-url-shortener.herokuapp.com:
 
@@ -99,7 +98,7 @@ curl --location 'https://truong-url-shortener.herokuapp.com/api/shorten' \
 https://truong-url-shortener.herokuapp.com/abc
 ```
 
-### Built With
+### Built with
 - [Rails 7](https://guides.rubyonrails.org/) - Backend / Frontend
 - [PostgreSQL](https://www.postgresql.org/) - Database
 - [RSpec](https://rspec.info/) — Testing
@@ -109,7 +108,7 @@ https://truong-url-shortener.herokuapp.com/abc
 Pull requests are welcome.
 
 ### Discussions
-1. Performance
-2. Security
-3. Scale up
-4. Documentation
+1. Infrastructures: design an architecture for easy deployment (such as using Kubernetes, Docker), CI/CD, etc.
+2. Security: We use JWT for authentication, and use the 'rack-attack' gem to prevent spammers. We also can use OAuth 2.
+3. Performance & scaling: vertical and horizontal scaling, increase the number of characters of a shortened link from 5 to 6, 7, or 8 to generate more shorten URLs.
+4. Documentation: we can use swagger
