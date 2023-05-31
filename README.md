@@ -110,5 +110,6 @@ Pull requests are welcome.
 ### Discussions
 1. Infrastructures: design an architecture for easy deployment (such as using Kubernetes, Docker), CI/CD, etc.
 2. Security: We use JWT for authentication, and use the 'rack-attack' gem to prevent spammers. We also can use OAuth 2.
+I also think about revoking the access permissions (jwt token).
 3. Performance & scaling: vertical and horizontal scaling, increase the number of characters of a shortened link from 5 to 6, 7, or 8 to generate more shorten URLs.
 4. Documentation: we can use swagger
