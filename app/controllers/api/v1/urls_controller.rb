@@ -10,7 +10,7 @@ module Api
 
         if url.save
           render json: { original_url: url.original_url,
-                         short_url: base_url + Url.encode(url.id) }, status: :created
+                         short_url: base_url + Url.encode(url.id) }, status: :ok
         else
           render json: { errors: url.errors.full_messages }, status: :unprocessable_entity
         end

@@ -33,6 +33,7 @@ rescue ActiveRecord::PendingMigrationError => e
 end
 
 require_relative 'support/factory_bot'
+require_relative 'support/shared_context'
 
 RSpec.configure do |config|
   # Remove this line if you're not using ActiveRecord or ActiveRecord fixtures
