@@ -1,6 +1,8 @@
+# frozen_string_literal: true
+
 FactoryBot.define do
   factory :url do
-    original_url { "MyString" }
+    original_url { 'MyString' }
     user { nil }
   end
 end

@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 Rails.application.routes.draw do
   get '/not_found', to: redirect('404.html')
   get '/server_error', to: redirect('500.html')

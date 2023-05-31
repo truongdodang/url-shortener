@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class UrlsController < ApplicationController
   def redirect
     id = Url.decode(params[:short_url])

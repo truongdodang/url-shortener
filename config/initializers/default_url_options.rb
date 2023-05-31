@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 hosts = {
   development: 'localhost:3000',
   staging: 'truong-minesweeper-staging.herokuapp.com',

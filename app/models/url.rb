@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class Url < ApplicationRecord
   belongs_to :user
 
@@ -18,7 +20,7 @@ class Url < ApplicationRecord
   validate :check_limitation
 
   def check_limitation
-    return if Url.last.id < MAX_ID
+    return if Url.last.nil? || Url.last.id < MAX_ID
 
     errors.add(:base, 'The limit has been reached')
   end
