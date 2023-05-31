@@ -6,6 +6,10 @@ A simple project to generate shortened URLs (like bit.ly, tinyurl.com, etc. serv
 
 Demo here: https://truong-url-shortener.herokuapp.com
 
+<img width="1104" alt="Screenshot 2023-05-31 at 17 35 29" src="https://github.com/truongdodang/url-shortener/assets/7007742/c373434c-d45b-4908-857e-556f0d5c6808">
+<img width="1111" alt="Screenshot 2023-05-31 at 17 36 37" src="https://github.com/truongdodang/url-shortener/assets/7007742/50a6a735-7648-4ebc-ad89-3be4e7cd76ef">
+
+
 ## Getting Started
 
 ### Prerequisites
