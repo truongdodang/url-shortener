@@ -82,7 +82,7 @@ Use curl, postman or any support tools to call apis.
 ```
 curl --location 'https://truong-url-shortener.herokuapp.com/api/request_access' \
 --form 'email="admin1@example.com"' \
---form 'password="123456"'
+--form 'password="2fStGFWYLyU"'
 ```
 
 2. Request shortened url
